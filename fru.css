@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+.navbar .nav-item .nav-link{
+   color: rgb(28, 28, 28);
+   font-size: larger;
+   cursor: pointer;
+   transition: 0.1s ease;
+   padding: 10px;
+}
+.navbar .nav-item .nav-link:hover{
+    background-color:  rgb(17, 190, 11);
+    color: aliceblue;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+.navbar .navbar-brand i{
+    color: orangered;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 253);
+}
+.text{
+    margin-top: 70px;
+    padding: 10px;
+}
+.text h4{
+    font-size: 16px;
+    color: rgb(17, 190, 11);
+    
+}
+.text p{
+    font-size:26px ;
+}
+ .text .btn{
+    background-color: rgb(17, 190, 11) ;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text .btn:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.im img{
+    width : 300px;
+    margin-top: 70px;
+}
+
+.Categories{
+    margin-top: 50px;
+}
+.Categories .tit{
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+.Categories .tit p{
+    font-size: 25px;
+    color: rgb(17, 190, 11);
+  
+}
+.Categories .box-contnr{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 30px;
+   text-align: center;
+   transition: 0.7s ease;
+
+}
+.Categories .box-contnr .box{
+ border-radius: 10px;
+
+}
+.Categories .box-contnr  :hover{
+transform: scale(1.1);
+}
+
+.box img{
+    width: 60px;
+    margin-bottom: 16px;
+}
+.box .box2 img{
+    margin-top: 10px;
+    width: 80px;
+
+}
+
+.box1{
+    background-color: rgb(104, 138, 226);
+    opacity: 5;
+}
+
+.box2{
+    background-color: rgb(125, 213, 110);
+}
+.box3{
+    background-color: rgb(239, 191, 86);
+}
+.box4{
+    background-color: rgb(231, 129, 86);
+}
+.box5{
+    background-color: rgb(236, 32, 32);
+}
+
+.Products{
+    margin-top: 90px;
+}
+.Products .titl{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.Products .titl p{
+    font-size: 25px;
+    color: rgb(17, 190, 11);
+}
+.box-con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.box-con .box{
+    box-shadow: 0 5px 15px rgb(110, 109, 109);
+    border-radius: 10px;
+    width: 280px;
+}
+.box-con .box p{
+    padding: 1px;
+    background-color: rgb(234, 54, 34);
+    width: 60px;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.box-con .box img{
+    width: 190px;
+   padding-left: 50px;
+}
+.box-con h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.box-con h3{
+    font-size: 20px;
+}
+
+.box-con h5,h3{
+  padding-left: 20px;
+}
+.box-con .box .icones{
+  font-size: larger;
+  background-color: rgb(17, 190, 11);
+  color: aliceblue;
+  width: 40px;
+  text-align: center;
+  border-radius: 10px 0;
+  font-size: 20px;
+  float: right;
+}
+
+.About{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.About p{
+font-size: 23px;
+margin-top: 100px;
+}
+.About h3{
+    color:  rgb(17, 190, 11) ;
+}
+  .About .btn{
+    background-color: rgb(17, 190, 11) ;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+
+
+.customers{
+    margin-top: 100px;
+}
+.customers h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .boxcoon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.customers .boxcoon .box{
+    box-shadow: 0 5px 15px rgb(110, 109, 109);
+    border-radius: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border-bottom: 5px solid green;
+    align-items: center;
+   padding-left: 20px;
+}
+.boxcoon .box img{
+    border-radius: 50%;
+}
+.boxcoon .box span{
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+
+.foot{
+padding: 14px;
+    background-color: rgb(237, 206, 162);
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex; justify-content: space-between;
+}
+.lf{
+    
+    margin-bottom: 1rem;
+}
+.lf i{
+    color: orangered;
+}
+.lf span{
+    padding-left: 1rem;
+    
+}
+.iccon i{
+    font-size: 25px;
+   padding: 3px;
+   border-radius: 5px;
+    background-color: aliceblue;
+    color:  rgb(17, 190, 11) ;
+    transition: 0.7s ease;
+}
+.iccon :hover{
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.catr i{
+    color: green;
+}
+.catr input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .Categories .box-contnr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box-con {
+        grid-template-columns: 1fr;
+    }
+
+    .customers .boxcoon {
+        grid-template-columns: 1fr;
+    }
+
+    .About p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .About .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lf span {
+        padding-left: 0;
+    }
+
+    .iccon i {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .all {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .all {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    .box {
+        padding: 10px; /* Further reduced padding */
+    }
+}
+
+@media (max-width: 600px) {
+    .box {
+        height: auto; /* Allow height to be dynamic */
+        padding: 5px; /* Minimal padding */
+    }
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .box-con {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .box-con {
+        grid-template-columns: 1fr; /* 1 column for mobile devices */
+        gap: 20px; /* Reduce gap for smaller screens */
+    }
+    
+    .Products .title {
+        font-size: 20px; /* Smaller title font size for mobile */
+    }
+
+    .Products .title p {
+        font-size: 20px; /* Smaller title font size for mobile */
+    }
+    
+    .box-con h5 {
+        font-size: 14px; /* Smaller h5 font size for mobile */
+    }
+    
+    .box-con h3 {
+        font-size: 18px; /* Smaller h3 font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .box-con .box {
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .box-con .box img {
+        width: 100%; /* Ensure image fills the box on small screens */
+    }
+}
